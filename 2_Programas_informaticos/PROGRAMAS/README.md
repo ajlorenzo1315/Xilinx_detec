@@ -20,36 +20,39 @@ Descargue la última versión de Vitis AI Docker con el siguiente comando. Este 
 docker pull xilinx/vitis-ai-cpu:latest  
 
 /Vitis-AI/docker_run.sh xilinx/vitis-ai-cpu:latest
+
 </pre>
 
-To run the docker, use command:
-```
-./docker_run.sh xilinx/vitis-ai-cpu:latest
-```
+
 #### Building Docker from Recipe
 
-There are two types of docker recipes provided - CPU recipe and GPU recipe. If you have a compatible nVidia graphics card with CUDA support, you could use GPU recipe; otherwise you could use CPU recipe.
+
+Se proporcionan dos tipos  de docker:  CPU y  GPU. Si tiene una tarjeta gráfica NVidia compatible con soporte CUDA, puede usar la receta GPU; de lo contrario, podría usar la receta de la CPU.
+
+
+Para compilar 2.0:
+
+<pre>
+cd setup/docker
+</pre>
 
 **CPU Docker**
 
-Use below commands to build the CPU docker:
-```
-cd setup/docker
+<pre>
+
 ./docker_build_cpu.sh
-```
-To run the CPU docker, use command:
-```
-./docker_run.sh xilinx/vitis-ai-cpu:latest
-```
+</pre>
+
 **GPU Docker**
 
-Use below commands to build the GPU docker:
-```
-cd setup/docker
+<pre>
 ./docker_build_gpu.sh
-```
-To run the GPU docker, use command:
-```
-./docker_run.sh xilinx/vitis-ai-gpu:latest
-```
-Please use the file **./docker_run.sh** as a reference for the docker launching scripts, you could make necessary modification to it according to your needs.
+</pre>
+
+Ejemplo para correr un imagne compilada
+
+<pre>
+
+/Vitis-AI/docker_run.sh xilinx/vitis-ai-cpu:latest
+
+</pre>
