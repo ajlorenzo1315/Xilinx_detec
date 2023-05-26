@@ -53,6 +53,7 @@ Ejemplo para correr un imagne compilada
 
 <pre>
 
-/Vitis-AI/docker_run.sh xilinx/vitis-ai-cpu:latest
+/Vitis-AI/docker_run.sh xilinx/vitis-ai-gpu:2.0.0.11030
+
 
 </pre>
