@@ -32,6 +32,9 @@ sudo apt-get install -y default-jdk                         # JAVA DEVELOPMENT K
 sudo apt-get install -y wavemon                             # REDE
 sudo apt-get install -y tesseract-ocr tesseract-ocr-eng     # OCR
 sudo apt-get install -y gcc                                 # Compiler Collection   
+sudo apt-get install -y pkg-config                          # paquetes
+sudo apt-get install  -y libglvnd-dev                       # PAQUETES
+
 
 # 3. GUI SOFTWARE
 
