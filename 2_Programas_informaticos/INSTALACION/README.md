@@ -82,35 +82,34 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 <pre>
 
-docker version
-
 Client: Docker Engine - Community
- Version:           23.0.5
- API version:       1.42
- Go version:        go1.19.8
- Git commit:        bc4487a
- Built:             Wed Apr 26 16:21:07 2023
+ Version:           24.0.2
+ API version:       1.43
+ Go version:        go1.20.4
+ Git commit:        cb74dfc
+ Built:             Thu May 25 21:52:22 2023
  OS/Arch:           linux/amd64
  Context:           default
 
 Server: Docker Engine - Community
  Engine:
-  Version:          23.0.5
-  API version:      1.42 (minimum version 1.12)
-  Go version:       go1.19.8
-  Git commit:       94d3ad6
-  Built:            Wed Apr 26 16:21:07 2023
+  Version:          24.0.2
+  API version:      1.43 (minimum version 1.12)
+  Go version:       go1.20.4
+  Git commit:       659604f
+  Built:            Thu May 25 21:52:22 2023
   OS/Arch:          linux/amd64
   Experimental:     false
  containerd:
-  Version:          1.6.20
-  GitCommit:        2806fc1057397dbaeefbea0e4e17bddfbd388f38
+  Version:          1.6.21
+  GitCommit:        3dce8eb055cbb6872793272b4f20ed16117344f8
  runc:
-  Version:          1.1.5
-  GitCommit:        v1.1.5-0-gf19387a
+  Version:          1.1.7
+  GitCommit:        v1.1.7-0-g860f061
  docker-init:
   Version:          0.19.0
   GitCommit:        de40ad0
+
 
 
 </pre>
