@@ -1,5 +1,5 @@
 ## Instalaciones 
-### Paso 1
+### PASO 0
 
 <pre>
 bash install-adicional-software.sh
@@ -12,6 +12,7 @@ sudo chmod 666 /var/run/docker.sock
 </pre>
 
 <pre>
+
 gcc --version
 gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0
 Copyright (C) 2021 Free Software Foundation, Inc.
@@ -20,6 +21,9 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 
 </pre>
+
+## PASO 1
+
 buscamos en la pagina oficial https://www.nvidia.com/es-es/geforce/drivers/ 
 
 *** Versión del controlador: 530.41 - Fecha de lanzamiento: 2023 Marzo 23  compatible***
@@ -28,22 +32,27 @@ install driver nvidia :
 
 xilinxs comment that uses CUDA 11 o higher
 
+[README](http://us.download.nvidia.com/XFree86/Linux-x86_64/530.41.03/README/index.html)
 <pre>
 
 nvidia-smi
+
 No se ha encontrado la orden «nvidia-smi», pero se puede instalar con:
-sudo apt install nvidia-utils-390         # version 390.157-0ubuntu0.22.04.1, or
-sudo apt install nvidia-utils-418-server  # version 418.226.00-0ubuntu5~0.22.04.1
-sudo apt install nvidia-utils-450-server  # version 450.236.01-0ubuntu0.22.04.1
-sudo apt install nvidia-utils-470         # version 470.182.03-0ubuntu0.22.04.1
-sudo apt install nvidia-utils-470-server  # version 470.182.03-0ubuntu0.22.04.1
-sudo apt install nvidia-utils-510         # version 510.108.03-0ubuntu0.22.04.1
-sudo apt install nvidia-utils-515         # version 515.105.01-0ubuntu0.22.04.1
-sudo apt install nvidia-utils-515-server  # version 515.105.01-0ubuntu0.22.04.1
-sudo apt install nvidia-utils-525         # version 525.105.17-0ubuntu0.22.04.1
-sudo apt install nvidia-utils-525-server  # version 525.105.17-0ubuntu0.22.04.1
-sudo apt install nvidia-utils-530         # version 530.41.03-0ubuntu0.22.04.2
-sudo apt install nvidia-utils-510-server  # version 510.47.03-0ubuntu3
+
+sudo apt install nvidia-340               # version 340.108-0ubuntu5.20.04.2, or
+sudo apt install nvidia-utils-390         # version 390.157-0ubuntu0.20.04.1
+sudo apt install nvidia-utils-450-server  # version 450.236.01-0ubuntu0.20.04.1
+sudo apt install nvidia-utils-470         # version 470.182.03-0ubuntu0.20.04.1
+sudo apt install nvidia-utils-470-server  # version 470.182.03-0ubuntu0.20.04.1
+sudo apt install nvidia-utils-510         # version 510.108.03-0ubuntu0.20.04.1
+sudo apt install nvidia-utils-515         # version 515.105.01-0ubuntu0.20.04.1
+sudo apt install nvidia-utils-515-server  # version 515.105.01-0ubuntu0.20.04.1
+sudo apt install nvidia-utils-525         # version 525.105.17-0ubuntu0.20.04.1
+sudo apt install nvidia-utils-525-server  # version 525.105.17-0ubuntu0.20.04.1
+sudo apt install nvidia-utils-530         # version 530.41.03-0ubuntu0.20.04.2
+sudo apt install nvidia-utils-435         # version 435.21-0ubuntu7
+sudo apt install nvidia-utils-440         # version 440.82+really.440.64-0ubuntu6
+sudo apt install nvidia-utils-418-server  # version 418.226.00-0ubuntu0.20.04.2
 
 nvidia-smi
 Fri May  5 17:01:10 2023       
