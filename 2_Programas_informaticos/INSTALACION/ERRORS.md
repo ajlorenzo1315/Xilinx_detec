@@ -1,5 +1,6 @@
 # CUDa
 
+Error:
 <pre>
 
  WARNING: Unable to determine the path to install the libglvnd EGL vendor     
@@ -9,7 +10,10 @@
 
 </pre>
 
-
+solución
+<pre>
+sudo apt-get install libglvnd-dev
+</pre>
 # Docker
 
 Error de permisos docker 

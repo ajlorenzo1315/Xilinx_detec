@@ -12,7 +12,8 @@ sudo apt-get -y autoremove    # descomenta para eliminar os paquetes que xa nos 
 
 
 # 1.-INSTALA O ULTIMO DRIVER DE NVIDIA PARA A TÚA TARXETA.
-# Precisas desinstalar o driver antiguo; sudo apt purge nvidia-driver-XXX
+# Precisas desinstalar o driver antiguo; sudo apt purge nvidia-driver-XXX 
+
 version_driver='530'
 
 sudo apt install nvidia-driver-$version_driver

@@ -39,7 +39,26 @@ xilinxs comment that uses CUDA 11 o higher
 
 o 
 
-confogurar  PASO1-install-cuda-MANUAL y ejecutarlo
+configurar  PASO1-install-cuda-MANUAL y ejecutarlo
 
 
 
+<pre>
+
+  Installation of the NVIDIA Accelerated Graphics Driver for Linux-x86_64      
+  (version: 530.41.03) is now complete.  Please update your xorg.conf file as  
+  appropriate; see the file /usr/share/doc/NVIDIA_GLX-1.0/README.txt for       
+  details.
+
+</pre>
+#### CUDA
+si instalastes los driver de manera automatica con el run instala cuda a aparte 
+
+[nvidia_instal](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=20.04&target_type=deb_network)
+
+<pre>
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-keyring_1.0-1_all.deb
+sudo dpkg -i cuda-keyring_1.0-1_all.deb
+sudo apt-get update
+sudo apt-get -y install cuda
+<pre>
