@@ -1,4 +1,15 @@
 ## Instalaciones 
+### Paso 1
+
+<pre>
+bash install-adicional-software.sh
+bash install-docker.sh
+</pre>
+
+Error de permisos docker 
+<pre>
+sudo chmod 666 /var/run/docker.sock
+</pre>
 
 <pre>
 gcc --version

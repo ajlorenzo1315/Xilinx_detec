@@ -31,7 +31,7 @@ sudo apt-get install -y ffmpeg                              # VIDEO
 sudo apt-get install -y default-jdk                         # JAVA DEVELOPMENT KIT (JDK)
 sudo apt-get install -y wavemon                             # REDE
 sudo apt-get install -y tesseract-ocr tesseract-ocr-eng     # OCR
-
+sudo apt-get install -y gcc                                 # Compiler Collection   
 
 # 3. GUI SOFTWARE
 
@@ -53,4 +53,4 @@ sudo apt-get install -y texlive-full texmaker               # LATEX (o paquete m
 # sudo apt-get install -y kazam obs-studio                  # SCREENCAST 
 
 # 4 (OPTIONAL)
-sudo apt-get install git
+sudo apt-get install -y git                                 # GIT-HUB
