@@ -42,7 +42,6 @@ o
 configurar  PASO1-install-cuda-MANUAL y ejecutarlo
 
 
-
 <pre>
 
   Installation of the NVIDIA Accelerated Graphics Driver for Linux-x86_64      
@@ -71,6 +70,16 @@ echo "export LD_LIBRARY_PATH=/usr/local/cuda-12.1/lib64:$LD_LIBRARY_PATH" >> ~/.
 echo "export CUDA_HOME=/usr/local/cuda-12.1" >> ~/.bashrc
 
 </pre>
+
+# Docker con nvidia
+
+instalar [NVIDIA Container Toolki](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html)
+
+<pre>
+sudo apt-get update \
+    && sudo apt-get install -y nvidia-container-toolkit-base
+</pre>
+
 # OPCIONAL 
 
 ###  CREAR UNA CLABE SSH PARA GITHUB

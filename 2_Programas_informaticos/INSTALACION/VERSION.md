@@ -50,6 +50,10 @@ Built on Mon_Apr__3_17:16:06_PDT_2023
 Cuda compilation tools, release 12.1, V12.1.105
 Build cuda_12.1.r12.1/compiler.32688072_0
 
+nvidia-ctk --version
+NVIDIA Container Toolkit CLI version 1.13.1
+commit: 28b70663f1a2b982e59e83bcf1844177dc745208
+
 
 </pre>
 
