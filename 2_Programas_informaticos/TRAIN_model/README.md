@@ -61,3 +61,30 @@ Ejemplo para correr un imagne compilada
 
 
 </pre>
+
+
+# [Docs](https://docs.xilinx.com/r/en-US/ug1414-vitis-ai)
+
+
+**remotes/origin/1.4**
+
+# pasos 
+
+[mi repositorio](https://github.com/ajlorenzo1315/Xilinx_detec)
+
+<pre>
+
+git clone https://github.com/ajlorenzo1315/Xilinx_detec.git
+cd Vitis-AI
+./docker_run.sh xilinx/vitis-ai-gpu:2.0.0.11030
+
+</pre>
+
+Instalar los requerimientos
+
+<pre>
+cd Xilinx_detec/2_Programas_informaticos/2_Programas_informaticos
+(vitis-ai-pytorch) Vitis-AI /workspace/Xilinx_detec/2_Programas_informaticos/2_Programas_informaticos > pip install -r requerement.txt 
+</pre>
+
+inspirate in [macaque-detection](https://github.com/gau-nernst/macaque-detection)

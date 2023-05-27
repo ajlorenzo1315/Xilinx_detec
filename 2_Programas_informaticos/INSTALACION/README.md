@@ -61,4 +61,28 @@ wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/
 sudo dpkg -i cuda-keyring_1.0-1_all.deb
 sudo apt-get update
 sudo apt-get -y install cuda
+</pre>
+
 <pre>
+
+echo "#Cambiamos os pahts pola instalacion de cuda" >> ~/.bashrc
+echo "export PATH=/usr/local/cuda-12.1/bin:$PATH" >> ~/.bashrc
+echo "export LD_LIBRARY_PATH=/usr/local/cuda-12.1/lib64:$LD_LIBRARY_PATH" >> ~/.bashrc
+echo "export CUDA_HOME=/usr/local/cuda-12.1" >> ~/.bashrc
+
+</pre>
+# OPCIONAL 
+
+###  CREAR UNA CLABE SSH PARA GITHUB
+
+# Git hub
+
+<pre>
+
+ssh-keygen -t ed25519 -C "ajlorenzon.1315@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+cat ~/.ssh/id_ed25519.pub
+
+</pre>
+
