@@ -49,6 +49,10 @@ cd setup/docker
 ./docker_build_gpu.sh
 </pre>
 
+***Si presenta errores a la hora de compilarlo reduzca el uso de hilos en las intalaciones del dockerfile***
+modificar  ***opencv 3.4.3*** y ***protobuf 3.4.0***  el 'make -j' por  'make'  o 'make -j4' (en mi caso)
+
+
 Ejemplo para correr un imagne compilada
 
 <pre>

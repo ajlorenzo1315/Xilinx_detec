@@ -33,7 +33,8 @@ sudo apt-get install -y wavemon                             # REDE
 sudo apt-get install -y tesseract-ocr tesseract-ocr-eng     # OCR
 sudo apt-get install -y gcc                                 # Compiler Collection   
 sudo apt-get install -y pkg-config                          # paquetes
-sudo apt-get install  -y libglvnd-dev                       # PAQUETES
+sudo apt-get install -y libglvnd-dev                       # PAQUETES
+
 
 
 # 3. GUI SOFTWARE
@@ -55,5 +56,9 @@ sudo apt-get install -y filezilla                           # CLIENTE FTP/FTPS/S
 sudo apt-get install -y texlive-full texmaker               # LATEX (o paquete mais completo!)
 # sudo apt-get install -y kazam obs-studio                  # SCREENCAST 
 
+# CUDA 
+sudo apt-get install -y nvidia-cuda-toolkit                 # CUDA
+
 # 4 (OPTIONAL)
 sudo apt-get install -y git                                 # GIT-HUB
+sudo apt-get install -y byobu                               # TEERMINAL BYOBU
