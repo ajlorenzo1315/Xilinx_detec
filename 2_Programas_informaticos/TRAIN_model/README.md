@@ -84,7 +84,10 @@ Instalar los requerimientos
 
 <pre>
 cd Xilinx_detec/2_Programas_informaticos/2_Programas_informaticos
-(vitis-ai-pytorch) Vitis-AI /workspace/Xilinx_detec/2_Programas_informaticos/2_Programas_informaticos > pip install -r requerement.txt 
+(vitis-ai-pytorch) Vitis-AI /workspace/Xilinx_detec/2_Programas_informaticos/2_Programas_informaticos/TRAIN_model > pip install -r requerement.txt 
 </pre>
 
-inspirate in [macaque-detection](https://github.com/gau-nernst/macaque-detection)
+
+Basado en [mi repositorio](https://github.com/AlexeyAB/darknet)
+
+Entrenamos el modelo siguiendo los pasos que indican en el github

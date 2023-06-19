@@ -1,0 +1,6 @@
+classes = 6
+train = /home/ali/Desktop/Vitis-AI/beca/Xilinx_detec/yolov4/data_2/train_path.txt
+valid = /home/ali/Desktop/Vitis-AI/beca/Xilinx_detec/yolov4/data_2/train_path.txt
+names = /home/ali/Desktop/Vitis-AI/beca/Xilinx_detec/yolov4/cfg/cubo.names
+backup = /home/ali/Desktop/Vitis-AI/beca/Xilinx_detec/yolov4/backup
+eval = coco

@@ -1,2 +1,5 @@
 **/NOT_GIT/
 **/**/NOT-GIT/
+*.jpg
+*.weights
+*.xml
