@@ -53,13 +53,30 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 </pre>
 
-# PASO 0 
+# PASO 1 
 
 INSTALACION
 
-# PASO 1
+# PASO 2
 
 DATA-SET
+
+# PASO 3
+
+TRAIN
+
+# PASO 4
+
+QUANTIZACIÓN
+
+# PASO 5 
+
+DESPLIEGUE
+
+# PASO 6
+
+EVALUACIÓN
+
 
 # [Docs](https://docs.xilinx.com/r/en-US/ug1414-vitis-ai)
 
