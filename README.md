@@ -1,16 +1,18 @@
 # Xilinx_detect In KV260 with Yolov4 [Paper](1_Memoria/1_Memoria_del_TFG_AJLL)
 
 DEEP LEARNING EN EL BORDE
+
 by
+
 ALICIA JIAJUN LORENZO LOURIDO
+
 Titores
+
 FERNANDO RAFAEL PARDO SECO  (Titor/a)
+
 Xosé Ramón Fernández Vidal  (Cotitor/a) 
 
 ## Resumen
-DEEP LEARNING EN EL BORDE
-por
-ALICIA JIAJUN LORENZO LOURIDO
 
 Palabras Clave: Visión Artificial, Aprendizaje máquina, FPGA, Quantización, Detección
 de objetos
