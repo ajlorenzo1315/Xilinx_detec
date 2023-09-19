@@ -1,4 +1,4 @@
-# Xilinx_detect In KV260 with Yolov4 [Paper](1_Memoria/1_Memoria_del_TFG_AJLL)
+# Xilinx_detect In KV260 with Yolov4 [Paper](Xilinx_detec/1_Memoria/1_Memoria_del_TFG_AJLL.pdf)
 
 DEEP LEARNING EN EL BORDE
 
